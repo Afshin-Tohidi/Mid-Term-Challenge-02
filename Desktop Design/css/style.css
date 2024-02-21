@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Inter/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../Inter/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+body {
+  font-family: "Inter";
+  background-color: #355b3e;
+  color: #355b3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px auto;
+}
+body .card {
+  display: flex;
+  height: 714px;
+  background-color: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+}
+body .card .descriptions {
+  width: 550px;
+  padding: 40px 64px;
+}
+body .card .descriptions .title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 32px;
+  font-weight: 600;
+}
+body .card .descriptions .paragraph {
+  font-size: 24px;
+  margin-top: 56px;
+  font-weight: 600;
+}
+body .card .descriptions .text {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #58745e;
+}
+body .card .descriptions .form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+}
+body .card .descriptions .form .email {
+  color: #2f3d4c;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body .card .descriptions .form .password {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+body .card .descriptions .form label {
+  display: block;
+}
+body .card .descriptions .form input {
+  border-radius: 8px;
+  border: 1px solid #b8d6bf;
+  padding: 16px;
+}
+body .card .descriptions .form .ckeckbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .card .descriptions .form .ckeckbox a {
+  text-decoration: underline;
+}
+body .card .descriptions .form .ckeckbox .remember {
+  display: flex;
+  gap: 8px;
+}
+body .card .descriptions .form .btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+body .card .descriptions .form .btn button {
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  border: 1px solid #029664;
+  font-size: 16px;
+  font-weight: 600;
+}
+body .card .descriptions .form .btn button.login {
+  background-color: #029664;
+  color: #fff;
+}
+body .card .descriptions .form .btn button.sign-up {
+  background-color: #fff;
+  color: #029664;
+}
+body .card .descriptions .footer {
+  display: flex;
+  gap: 24px;
+  margin-top: 56px;
+  font-size: 16px;
+}
+body .card .descriptions .footer .first {
+  color: #58745e;
+}
+
+/*# sourceMappingURL=style.css.map */

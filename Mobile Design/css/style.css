@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Inter/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../Inter/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+main {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  font-family: "Inter";
+}
+main .card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+main .card .top {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+main .card .top .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  background-color: #355b3e;
+  height: 100px;
+  color: #fff;
+}
+main .card .bottom {
+  height: 570px;
+  padding: 24px;
+}
+main .card .bottom .paragraph {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #355b3e;
+}
+main .card .bottom .text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #58745e;
+  margin-top: 12px;
+}
+main .card .bottom .email {
+  margin-top: 40px;
+  font-family: "Inter";
+  color: #2f3d4c;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+main .card .bottom .email input[type=email] {
+  width: 100%;
+  margin-top: 5px;
+  padding: 20px;
+  border: 1px solid #b8d6bf;
+  border-radius: 8px;
+}
+main .card .bottom .password {
+  margin-top: 24px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #355b3e;
+}
+main .card .bottom .password input[type=password] {
+  width: 100%;
+  margin-top: 5px;
+  padding: 20px;
+  border: 1px solid #b8d6bf;
+  border-radius: 8px;
+}
+main .card .bottom .checkbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #355b3e;
+}
+main .card .bottom .checkbox .remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main .card .bottom a {
+  text-decoration: underline;
+  color: #355b3e;
+}
+main .card .bottom .btn {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  align-items: center;
+}
+main .card .bottom .btn .login {
+  color: #fff;
+}
+main .card .bottom .btn .sign-up {
+  background-color: #fff;
+  color: #029664;
+  border-color: 1px solid #029664;
+}
+main .card .bottom .btn button {
+  margin-top: 18px;
+  background-color: #029664;
+  padding: 16px 58px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter";
+}
+main .card .bottom .footer {
+  text-align: center;
+  margin-top: 30px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #58745e;
+}
+main .card .bottom .down {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  color: #355b3e;
+}
+
+/*# sourceMappingURL=style.css.map */
